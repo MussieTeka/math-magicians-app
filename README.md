@@ -29,7 +29,7 @@
 
 # 📖 Math Magicians App <a name="about-project"></a>
 
-This is a simple web application built using [React](https://reactjs.org/) that allows users to perform basic arithmetic calculations, such as addition, subtraction, multiplication, and division. The app is designed to provide a clean and user-friendly interface that makes it easy for users to perform calculations on the fly.
+This is a simple web application built using that allows users to perform basic arithmetic calculations, such as addition, subtraction, multiplication, and division. The app is designed to provide a clean and user-friendly interface that makes it easy for users to perform calculations on the fly. In addition, the app also includes a quote feature that displays a random inspirational quote to users each time they visit the app.
 
 ## 🛠 Built With <a name="built-with"></a>
 
