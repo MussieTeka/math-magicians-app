@@ -29,7 +29,7 @@
 
 # 📖 Math Magicians App <a name="about-project"></a>
 
-This is a simple web application built using [React](https://reactjs.org/) that allows users to perform basic arithmetic calculations, such as addition, subtraction, multiplication, and division. The app is designed to provide a clean and user-friendly interface that makes it easy for users to perform calculations on the fly.
+This is a simple web application built using that allows users to perform basic arithmetic calculations, such as addition, subtraction, multiplication, and division. The app is designed to provide a clean and user-friendly interface that makes it easy for users to perform calculations on the fly. In addition, the app also includes a quote feature that displays a random inspirational quote to users each time they visit the app.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -48,8 +48,7 @@ This is a simple web application built using [React](https://reactjs.org/) that 
 - Perform basic arithmetic operations (addition, subtraction, multiplication, division)
 - Clear the current calculation with the AC button
 - Delete the last entered number or operator with the C button
-- Keyboard support for entering numbers and operators
-- Responsive design that works on desktop and mobile devic
+- Display a random quote from the [Ninja API](https://api-ninjas.com/api/quotes)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,7 +160,7 @@ This project was inspired by the [Calculator](https://www.theodinproject.com/pat
 
 - [React](https://reactjs.org/)
 - [Create React App](https://create-react-app.dev/)
-- [Math.js](https://mathjs.org/)
+- [Ninja API](https://api-ninjas.com/api/quotes)
 - [GitHub](https://github.com/)
 - [Microverse](https://www.microverse.org/)
 
