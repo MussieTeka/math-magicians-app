@@ -73,7 +73,3 @@ button:active {
   background-color: #ff9a00;
   color: #fff;
 }
-
-/* button:not(.operator):not(.number):hover {
-  background-color: #e6e6e6;
-} */
