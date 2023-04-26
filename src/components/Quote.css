@@ -1,0 +1,10 @@
+.quote-container {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.quote-container p {
+  font-size: 24px;
+}
