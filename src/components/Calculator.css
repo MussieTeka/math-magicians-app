@@ -1,7 +1,6 @@
 .calculator {
   width: 300px;
   height: 420px;
-  border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
@@ -20,7 +19,6 @@
   font-weight: 500;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  box-sizing: border-box;
 }
 
 .buttons {
@@ -47,6 +45,7 @@ button {
 
 button:last-child {
   border-right: none;
+  border-bottom-right-radius: 8px;
 }
 
 button:active {
@@ -67,6 +66,7 @@ button:active {
 
 .zero {
   grid-column: 1 / span 2;
+  border-bottom-left-radius: 8px;
 }
 
 .equal {
