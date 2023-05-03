@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import './Quote.css';
+import '../styles/components/Quote.css';
 
 const Quote = ({ category }) => {
   const [quote, setQuote] = useState('');

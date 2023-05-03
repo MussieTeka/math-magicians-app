@@ -1,0 +1,27 @@
+.quote-container {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.quote-container p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  color: #666;
+}
+
+@media only screen and (max-width: 767px) {
+  .quote-container {
+    width: 90vw;
+    padding: 20px;
+  }
+
+  .quote-container p {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+}

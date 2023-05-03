@@ -1,18 +1,21 @@
 import React from 'react';
-import Calculator from './components/Calculator';
-import Quote from './components/Quote';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/HomePage';
+import CalculatorPage from './pages/CalculatorPage';
+import QuotePage from './pages/QuotePage';
+import Navbar from './components/Navbar';
 
-function App() {
-  return (
+const App = () => (
+  <Router>
     <div>
-      <div className="calculator-container">
-        <Calculator />
-      </div>
-      <div className="quote-container">
-        <Quote category="happiness" />
-      </div>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/calculator" element={<CalculatorPage />} />
+        <Route path="/quote" element={<QuotePage />} />
+      </Routes>
     </div>
-  );
-}
+  </Router>
+);
 
 export default App;

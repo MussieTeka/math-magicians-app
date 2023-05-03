@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
-
+import calculate from '../logic/calculate';
 import Display from './Display';
 import Buttons from './Buttons';
+import '../styles/components/Calculator.css';
 
-import './Calculator.css';
-import calculate from '../logic/calculate';
-
-function Calculator() {
+function CalculatorPage() {
   const [state, setState] = useState({
     total: null,
     next: null,
@@ -26,4 +24,4 @@ function Calculator() {
   );
 }
 
-export default Calculator;
+export default CalculatorPage;

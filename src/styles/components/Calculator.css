@@ -1,9 +1,9 @@
-.calculator-container {
+/* .calculator-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 70vh;
-}
+} */
 
 .calculator {
   width: 300px;
