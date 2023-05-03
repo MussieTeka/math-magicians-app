@@ -1,4 +1,3 @@
-// CalculatorPage.js
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 import Display from './Display';
