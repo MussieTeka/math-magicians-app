@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display Component renders correctly 1`] = `
+<div
+  className="display"
+>
+  test value
+</div>
+`;
