@@ -12,6 +12,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -49,6 +50,12 @@ This is a simple web application built using that allows users to perform basic 
 - Clear the current calculation with the AC button
 - Delete the last entered number or operator with the C button
 - Display a random quote from the [Ninja API](https://api-ninjas.com/api/quotes)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://math-magicians-app-837v.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
